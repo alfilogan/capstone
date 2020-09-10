@@ -52,7 +52,7 @@ li {
     ;
 }
 
-a {
+.container a {
     text-decoration: none;
     color: black;
 }
@@ -61,7 +61,7 @@ a {
 .banner {
     height: 600px;
     background-color: lightgray;
-    padding: 32px 24px;
+    padding: 22px 24px;
     margin-top: 64px;
     display: flex;
     flex-direction: row;
@@ -80,20 +80,28 @@ a {
 .intro h2 {
     font-size: 45px;
     font-weight: bolder;
+    padding-top: 0;
 }
 
 .intro h3 {
-    font-weight: bold;
+    font-weight: 500;
+    padding-bottom: 20px;
 }
 
 .intro button {
     width: 100%;
     padding: 16px 32px;
+    margin-bottom: 50px;
     background-color: #222;
     color: white;
     border: none;
     font-size: 20px;
-    font-family: 'Montserrat'
+    font-family: 'Montserrat';
+}
+
+.intro a {
+    text-decoration: none;
+    color: white;
 }
 
 /* information section */
@@ -173,7 +181,7 @@ a {
     background-color: #b3b3b3;
 }
 
-.information .text {
+.rightside .text {
     margin: auto;
     width: 100%;
 }
@@ -232,4 +240,83 @@ a {
 
 .flex-container p {
     color: grey;
+}
+
+/* Thesis */
+
+.exhibit {
+    background-color: #e6e6e6;
+    text-align: center;
+    padding: 32px 0;
+    height: 1000px;
+}
+
+.exhibit h2 {
+    padding-bottom: 32px;
+}
+
+.exhibit-container {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside {
+    width: 60%;
+    padding: 0 24px;
+
+}
+
+.reimagine video {
+    width: 100%;
+}
+
+.reimagine {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightside {
+    width: 40%;
+}
+
+.rightside img {
+    width: 35%;
+    height: 40%;
+    padding: 16px;
+}
+
+.fisma {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.fisma:hover {
+    background-color: #b3b3b3;
+}
+
+.now-and-then {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.now-and-then:hover {
+    background-color: #b3b3b3;
+}
+
+.rightside .text {
+    margin: auto;
+    width: 100%;
+}
+
+.exhibit h4 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+}
+
+.exhibit a {
+    color: slateblue;
 }
