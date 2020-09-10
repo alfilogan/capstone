@@ -1,3 +1,231 @@
-body {
+body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+
+header{
+    width: 100%;
+    overflow: hidden;
+    height: 64px;
+    background: white;
+    position: fixed;
+    top: 0;
+}
+
+h1 {
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.logo{
+    width: 34px;
+    float: left;
+    padding-left: 24px;
+}
+
+.navbar_links{
+    float: right;
+}
+
+.menu {
+    padding-right: 24px;
+    text-decoration: none;
+}
+
+ul {
+    display: block;
+
+}
+
+li {
+    float: left;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 16px;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.banner {
+    height: 600px;
+    background-color: lightgray;
+    padding: 32px 24px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner img {
+    width: 60%;
+}
+
+.intro {
+    width: 30%;
+    margin: auto 24px;
+    padding-left: 24px;
+}
+
+.intro h2 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.intro h3 {
+    font-weight: bold;
+}
+
+.intro button {
+    width: 100%;
+    padding: 16px 32px;
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat'
+}
+
+/* information section */
+
+.information {
+    height: 650px;
+    background-color: #e6e6e6;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside {
+    width: 60%;
+    padding: 0 24px;
+    padding-bottom: 32px;
+}
+
+.leftside img {
+    width: 100%;
+    padding-top: 16px;
+}
+
+.leftside h2{
+    font-size: 40px;
+    padding-top: 0;
+}
+
+#quotetag {
+    font-size: 10px;
+    padding-top: 34px;
+}
+
+
+.rightside {
+    width: 40%;
+}
+
+.rightside img {
+    width: 35%;
+    height: 40%;
+    padding: 16px;
+}
+
+
+.orientation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.orientation:hover {
+    background-color: #b3b3b3;
+}
+
+.campus {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.campus:hover {
+    background-color: #b3b3b3;
+}
+
+.lecture {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.lecture:hover {
+    background-color: #b3b3b3;
+}
+
+.information .text {
+    margin: auto;
+    width: 100%;
+}
+
+.information h4 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+}
+
+.information a {
+    color: slateblue;
+}
+
+/* Learning */
+
+.learning {
+    background-color: #cccccc;
+    padding: 32px 0;
+}
+
+.learning h2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.flex-container {
+    padding: 0 72px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.flex-container div{
+    width: 350px;
+    margin: 10px;
+    background-color: white;
+    padding-bottom: 4px;
+}
+
+.flex-container img {
+    width: 100%;
+}
+
+.flex-container .text{
+    margin: 16px;
+    width: 90%;
+}
+
+.flex-container h4 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.flex-container p {
+    color: grey;
 }
