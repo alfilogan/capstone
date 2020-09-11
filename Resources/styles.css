@@ -225,7 +225,7 @@ li {
 }
 
 .flex-container div{
-    width: 350px;
+    width: 30%;
     margin: 10px;
     background-color: white;
     padding-bottom: 4px;
@@ -430,7 +430,8 @@ header ul {
 }
 
 .flex-container div {
-        height: 60%;
+        width: 400px;
+        margin: 10px 0;
 }
 
 .flex-container img {
