@@ -14,6 +14,10 @@ header{
     top: 0;
 }
 
+.webmenu {
+    display: none;
+}
+
 h1 {
     position: absolute;
     padding: 3px;
@@ -57,6 +61,7 @@ li {
     color: black;
 }
 
+/* banner */
 
 .banner {
     height: 600px;
@@ -193,8 +198,10 @@ li {
 }
 
 .information a {
-    color: slateblue;
+    color: #98b4d4;
+    text-decoration: none;
 }
+
 
 /* Learning */
 
@@ -248,11 +255,6 @@ li {
     background-color: #e6e6e6;
     text-align: center;
     padding: 32px 0;
-    height: 1000px;
-}
-
-.exhibit h2 {
-    padding-bottom: 32px;
 }
 
 .exhibit-container {
@@ -261,14 +263,25 @@ li {
     flex-direction: row;
 }
 
-.leftside {
+.exhibit-container .leftside {
     width: 60%;
     padding: 0 24px;
-
+    line-height: 24px;
 }
 
 .reimagine video {
     width: 100%;
+    padding-bottom: 24px;
+}
+
+.reimagine-text {
+    text-align: left;
+}
+
+.reimagine-text h3 {
+    font-weight: 500;
+    font-size: 26px;
+    padding-bottom: 8px;
 }
 
 .reimagine {
@@ -278,6 +291,11 @@ li {
 
 .rightside {
     width: 40%;
+    text-align: left;
+}
+
+.rightside p {
+    line-height: 24px;
 }
 
 .rightside img {
@@ -289,7 +307,7 @@ li {
 .fisma {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
 }
 
 .fisma:hover {
@@ -299,7 +317,7 @@ li {
 .now-and-then {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
 }
 
 .now-and-then:hover {
@@ -319,4 +337,96 @@ li {
 
 .exhibit a {
     color: slateblue;
+}
+
+/* Footer */
+
+footer {
+    display: block;
+    font-size: 10px;
+}
+
+footer p {
+    float: left;
+    padding-left: 24px;
+    padding-top: 8px;
+}
+
+footer ul {
+    float: right;
+    padding-right: 24px;
+}
+
+/* Responsive Mobile Design */
+
+@media only screen and (max-width: 600px) {
+
+body {
+    width: 100%;
+}
+
+header h1 {
+    display: none;
+}
+
+header ul {
+    display: none;
+}
+
+.webmenu {
+    display: block;
+    margin: auto;
+    padding: 15px 50px;
+    justify-content: center;
+}
+
+.webmenu img {
+    padding: 0 34px;
+    margin: auto;
+}
+
+.banner {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+
+}
+
+.banner img {
+    width: 100%;
+}
+
+.intro {
+    width: 100%;
+}
+
+.intro h2 {
+    font-size: 32px;
+}
+
+.intro button {
+    width: 80%;
+    padding: 16px 32px;
+    margin-bottom: 50px;
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+.rightside img {
+    height: 80%;
+}
+
+.information .leftside {
+    display: none;
+}
+
+.information .rightside {
+    width: 100%;
+}
+
+
 }
