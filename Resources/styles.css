@@ -359,7 +359,7 @@ footer ul {
 
 /* Responsive Mobile Design */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 414px) {
 
 body {
     width: 100%;
@@ -376,20 +376,21 @@ header ul {
 .webmenu {
     display: block;
     margin: auto;
-    padding: 15px 50px;
+    padding: 15px 20px;
     justify-content: center;
 }
 
 .webmenu img {
-    padding: 0 34px;
+    padding: 0 29px;
     margin: auto;
+    height: 32px;
 }
 
 .banner {
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 650px;
 
 }
 
@@ -398,7 +399,7 @@ header ul {
 }
 
 .intro {
-    width: 100%;
+    width: 80%;
 }
 
 .intro h2 {
@@ -406,7 +407,7 @@ header ul {
 }
 
 .intro button {
-    width: 80%;
+    width: 100%;
     padding: 16px 32px;
     margin-bottom: 50px;
     background-color: #222;
@@ -428,5 +429,38 @@ header ul {
     width: 100%;
 }
 
+.flex-container div {
+        height: 60%;
+}
+
+.flex-container img {
+    display: none;
+}
+
+.flex-container p {
+    display: none;
+}
+
+.exhibit .rightside {
+    display: none;
+}
+
+.exhibit .reimagine-text {
+    display: none;
+}
+
+.reimagine video {
+    width: 320px;
+    margin: auto;
+    padding-top: 24px;
+}
 
 }
+
+@media only screen and (max-width: 1920px) and (min-width: 500px) {
+    .banner img {
+        height: auto;
+        width: 60%;
+    }
+}
+
